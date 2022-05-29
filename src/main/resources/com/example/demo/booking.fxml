@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <ImageView fitHeight="353.0" fitWidth="602.0" layoutY="47.0" opacity="0.58" pickOnBounds="true">
+         <image>
+            <Image url="@../../../1929199.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="-151.0" prefHeight="200.0" prefWidth="602.0" style="-fx-background-color: lightgrey;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../medical_center_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <DatePicker layoutX="213.0" layoutY="136.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="201.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Screenshot_2022-05-29_164813-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="153.0" layoutX="249.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Screenshot_2022-05-25_130134-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="271.0" layoutY="339.0" mnemonicParsing="false" onAction="#closeButtonAction" opacity="0.0" text="Button" />
+   </children>
+</AnchorPane>

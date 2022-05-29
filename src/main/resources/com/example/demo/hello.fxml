@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="608.0" opacity="0.47" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pexels-linkedin-sales-navigator-2182976.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="-142.0" prefHeight="190.0" prefWidth="600.0" style="-fx-background-color: lightgrey;">
+         <children>
+            <ImageView fitHeight="36.0" fitWidth="307.0" layoutX="161.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../medical_center_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="113.0" fitWidth="94.0" layoutX="253.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../santosh.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="253.0" layoutY="351.0" text="Dr. Charis Chandy">
+         <font>
+            <Font name="Dubai Medium" size="12.0" />
+         </font></Label>
+      <ImageView fitHeight="106.0" fitWidth="98.0" layoutX="65.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../dr_rani_krishna_pic.jpeg__247x278_q85_crop_subsampling-2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="77.0" layoutY="351.0" text="Dr. Sanu Tom">
+         <font>
+            <Font name="Dubai Medium" size="12.0" />
+         </font></Label>
+      <ImageView fitHeight="106.0" fitWidth="98.0" layoutX="419.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../jayasree_1.png__247x278_q85_crop_subsampling-2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="422.0" layoutY="351.0" text="Dr. Henry Selestin">
+         <font>
+            <Font name="Dubai Medium" size="12.0" />
+         </font></Label>
+      <ImageView fitHeight="120.0" fitWidth="94.0" layoutX="66.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../dsc_5123.jpg__253x285_q85_crop_subsampling-2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="429.0" layoutY="172.0" text="Dr. Jayasree A">
+         <font>
+            <Font name="Dubai Medium" size="12.0" />
+         </font></Label>
+      <ImageView fitHeight="106.0" fitWidth="98.0" layoutX="253.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../charis_1.png__247x278_q85_crop_subsampling-2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="256.0" layoutY="172.0" text="Dr. Santhosh B P">
+         <font>
+            <Font name="Dubai Medium" size="12.0" />
+         </font></Label>
+      <ImageView fitHeight="106.0" fitWidth="98.0" layoutX="419.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../dsc_0593.png__247x278_q85_crop_subsampling-2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="67.0" layoutY="172.0" text="Dr. Rani Krishnan">
+         <font>
+            <Font name="Dubai Medium" size="12.0" />
+         </font></Label>
+      <ImageView blendMode="COLOR_BURN" fitHeight="44.0" fitWidth="30.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../home-icon-web-pageui-symbol-vector-23190249.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="4.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeButtonAction" opacity="0.0" text="home" />
+      <Button layoutX="64.0" layoutY="58.0" mnemonicParsing="false" onAction="#rani" opacity="0.0" prefHeight="106.0" prefWidth="94.0" text="Rani" />
+      <Button layoutX="254.0" layoutY="61.0" mnemonicParsing="false" onAction="#santosh" opacity="0.0" prefHeight="106.0" prefWidth="94.0" text="santosh" />
+      <Button layoutX="418.0" layoutY="61.0" mnemonicParsing="false" onAction="#jayashree" opacity="0.0" prefHeight="106.0" prefWidth="94.0" text="jayasree" />
+      <Button layoutX="65.0" layoutY="238.0" mnemonicParsing="false" onAction="#sanu" opacity="0.0" prefHeight="106.0" prefWidth="94.0" text="sanu" />
+      <Button layoutX="254.0" layoutY="238.0" mnemonicParsing="false" onAction="#charis" opacity="0.0" prefHeight="106.0" prefWidth="94.0" text="charis" />
+      <Button layoutX="420.0" layoutY="236.0" mnemonicParsing="false" onAction="#henry" opacity="0.0" prefHeight="106.0" prefWidth="94.0" text="henry" />
+   </children>
+</AnchorPane>
